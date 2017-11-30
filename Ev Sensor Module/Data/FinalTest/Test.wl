@@ -1,16 +1,15 @@
-(* ::Package:: *)
-
+(* ::Package::  *)
 (* ::Input:: *)
-(*SetDirectory[NotebookDirectory[]];*)
-
-
-(* ::Input:: *)
-(*NotebookDirectory[]*)
+SetDirectory[NotebookDirectory[]];
 
 
 (* ::Input:: *)
-(*toBeExported=ToString[NotebookDirectory[]];*)
+NotebookDirectory[]
 
 
 (* ::Input:: *)
-(*Export["test.txt",toBeExported]*)
+toBeExported=ToString[NotebookDirectory[]];
+
+
+(* ::Input:: *)
+Export["test.txt",toBeExported]
