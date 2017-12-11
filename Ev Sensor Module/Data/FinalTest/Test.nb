@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      2746,         95]
-NotebookOptionsPosition[      2214,         72]
-NotebookOutlinePosition[      2560,         87]
-CellTagsIndexPosition[      2517,         84]
+NotebookDataLength[      2069,         76]
+NotebookOptionsPosition[      1579,         54]
+NotebookOutlinePosition[      1925,         69]
+CellTagsIndexPosition[      1882,         66]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -28,50 +28,32 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"NotebookDirectory", "[", "]"}]], "Input"],
 
-Cell[BoxData[
- TemplateBox[{
-  "NotebookDirectory","nosv",
-   "\"The notebook \
-\\!\\(\\*TemplateBox[List[FrontEndObject[LinkObject[\\\"3kkc6_shm\\\", 3, \
-1]], 24, \\\"FrontEndObject[LinkObject[\\\\\\\"3kkc6_shm\\\\\\\", 3, 1]]\\\", \
-\\\"24\\\", \\\"\\\\\\\"Untitled-1\\\\\\\"\\\"], \
-\\\"NotebookObjectUnsaved\\\"]\\) is not saved.\"",2,436,20,
-   24365329600377346650,"Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.720985199778869*^9}],
-
-Cell[BoxData["$Failed"], "Output",
- CellChangeTimes->{3.7209851997798977`*^9}]
+Cell[BoxData["\<\"F:\\\\ElectricLongboardSensorModule\\\\Ev Sensor \
+Module\\\\Data\\\\FinalTest\\\\\"\>"], "Output",
+ CellChangeTimes->{{3.7209851997798977`*^9, 3.720985211708962*^9}}]
 }, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"toBeExported", "=", 
+   RowBox[{"ToString", "[", 
+    RowBox[{"NotebookDirectory", "[", "]"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.720985168898677*^9, 3.7209852191415014`*^9}}],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{
-  RowBox[{"toBeexported", "=", 
-   RowBox[{"ToString", "[", 
-    RowBox[{"NotebookDirectory", "[", "]"}], "]"}]}], ";"}]], "Input",
- CellChangeTimes->{{3.720985168898677*^9, 3.7209851913873243`*^9}}],
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<test.txt\>\"", ",", "toBeExported"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7209851603703732`*^9, 3.7209851639950275`*^9}, {
+  3.7209852221792*^9, 3.720985244368164*^9}}],
 
-Cell[BoxData[
- TemplateBox[{
-  "NotebookDirectory","nosv",
-   "\"The notebook \
-\\!\\(\\*TemplateBox[List[FrontEndObject[LinkObject[\\\"3kkc6_shm\\\", 3, \
-1]], 24, \\\"FrontEndObject[LinkObject[\\\\\\\"3kkc6_shm\\\\\\\", 3, 1]]\\\", \
-\\\"24\\\", \\\"\\\\\\\"Untitled-1\\\\\\\"\\\"], \
-\\\"NotebookObjectUnsaved\\\"]\\) is not saved.\"",2,435,19,
-   24365329600377346650,"Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.72098519171985*^9}]
-}, Open  ]],
-
-Cell[BoxData[
- RowBox[{"Export", "[", "\"\<NotebookDirectory[]];\>"}]], "Input",
- CellChangeTimes->{{3.7209851603703732`*^9, 3.7209851639950275`*^9}}]
+Cell[BoxData["\<\"test.txt\"\>"], "Output",
+ CellChangeTimes->{{3.7209852361151347`*^9, 3.7209852447027884`*^9}}]
+}, Open  ]]
 },
-WindowSize->{1520, 779},
-WindowMargins->{{0, Automatic}, {Automatic, 2}},
+WindowSize->{1520, 771},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (September 21, 2016)",
 StyleDefinitions->"Default.nb"
 ]
@@ -89,17 +71,14 @@ Notebook[{
 Cell[558, 20, 123, 3, 30, "Input"],
 Cell[CellGroupData[{
 Cell[706, 27, 65, 1, 30, "Input"],
-Cell[774, 30, 464, 10, 42, "Message"],
-Cell[1241, 42, 78, 1, 30, "Output"]
+Cell[774, 30, 185, 2, 30, "Output"]
 }, Open  ]],
+Cell[974, 35, 223, 5, 30, "Input"],
 Cell[CellGroupData[{
-Cell[1356, 48, 223, 5, 30, "Input"],
-Cell[1582, 55, 463, 10, 42, "Message"]
-}, Open  ]],
-Cell[2060, 68, 150, 2, 30, "Input"]
+Cell[1222, 44, 225, 4, 30, "Input"],
+Cell[1450, 50, 113, 1, 30, "Output"]
+}, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
